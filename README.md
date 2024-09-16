@@ -20,7 +20,7 @@ DHT11/DHT22 DATA to ESP8266 D4 (GPIO2)
 INSTALLATION:
 
 Clone the repository:
-Copy code
+
 git clone :https://github.com/abhijit826/ESP8266-Wi-Fi-microcontroller-Temperature-and-Humidity-Measurement
 
 
