@@ -1,24 +1,29 @@
-Overview
+OVERVIEW:
+
 This project demonstrates how to interface a DHT11 (or DHT22) temperature and humidity sensor with an ESP8266 microcontroller. The code reads temperature and humidity data from the DHT sensor and prints the values to the Serial Monitor. This example is useful for understanding basic sensor interfacing and serial communication with the ESP8266.
 
-Components
+COMPONENTS:
+
 ESP8266 Board (e.g., NodeMCU, Wemos D1 Mini)
 DHT11 or DHT22 Sensor
 Breadboard and Jumper Wires
 Wiring
 
 Connect the DHT sensor to the ESP8266 as follows:
+
 DHT11/DHT22 VCC to ESP8266 3.3V
 DHT11/DHT22 GND to ESP8266 GND
 DHT11/DHT22 DATA to ESP8266 D4 (GPIO2)
 
 ![iotwkshp TINKER CAD](https://github.com/user-attachments/assets/20d3f1bb-1429-4932-b94e-9e52aa8d26aa)
 
+INSTALLATION:
 
-Installation
 Clone the repository:
 Copy code
 git clone :https://github.com/abhijit826/ESP8266-Wi-Fi-microcontroller-Temperature-and-Humidity-Measurement
+
+
 Install necessary libraries:
 
 Adafruit Sensor Library
